@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ef476f;
+    text-align: center;
+    background-image: url(./125919906-tic-tac-toe-game-drawing-in-sand-background-close-up.jpg)
+}
+
+h1 {
+    padding-top: 1vmin;
+    padding-bottom: 0vmin;
+    font-style: oblique;
+    font-size: 2rem;
+    color: #2b2d42;
+    text-decoration: underline;
+}
+
+#msg{
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+    font-style: italic;
+    font-size: 2rem;
+    color: #3a0ca3;
+    font-weight: bolder;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);
+    font-size: 5rem;
+    color: #b5179e;
+    background-color: #457b9d;
+}
+
+#reset-btn{
+     height: 8vmin;
+    width: 24vmin; 
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.9);
+    font-size: 1rem ;
+    color: #3a0ca3;
+
+}
+
+#new-btn{
+    height: 8vmin;
+    width: 24vmin; 
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.9);
+    font-size: 1rem ;
+    color: #3a0ca3;
+    margin-bottom: 0.5vmin;
+
+}
+
+.hide{
+    display: none;
+}
